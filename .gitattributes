@@ -1,0 +1,10 @@
+# 改行コードは .editorconfig で制御する
+*       -text
+# Git LFS
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.doc  filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.ppt  filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.xls  filter=lfs diff=lfs merge=lfs -text
+*.pdf  filter=lfs diff=lfs merge=lfs -text
